@@ -1,0 +1,6 @@
+---
+- name: Setup Apache Tomcat and Maven
+  hosts: localhost
+  roles:
+    - apache
+    - maven
